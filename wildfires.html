@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body> 
+	<div id = 'topbar'>
+		<img id = 'fire' src='fire.jpg'/>
+		<p> Hi welcome to the Australian Bush fires page!</p>
+		<button id= 'mainbutton' onclick="window.location.reload();">Refresh Page!</button>
+		<button id="mainbutton" onclick="location.href='index.html'">Return to home page!</button>
+	</div>
+	<div id = 'mainsection'>
+		<p> Click the buttons below for info! </p> 	
+		<button id= 'mainbutton' type='button' onclick = explore6()>Bush fires General!</button>
+		<button id= 'mainbutton' type='button' onclick = explore7()>Bush fires What it did!</button>
+		<button id= 'mainbutton' type='button' onclick = explore8()>Bush fires How it started!</button>
+		
+	<div id = 'loop-section'>
+	</div>
+	
+</body>
+<script>
+</script>
+
+<script>
+	function explore6(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p>The 2019–20 Australian bushfire season, colloquially known as the black summer, was a period of unusually intense bushfires throughout Australia.In June 2019 the Queensland Fire and Emergency Service acting director warned of the potential for an early start to the bushfire season which normally starts in August. The warning was based on the Northern Australia bushfire seasonal outlook noting exceptional dry conditions and a lack of soil moisture, combined with early fires in central Queensland. Throughout the summer, hundreds of fires burnt, mainly in the southeast of the country. The major fires, which peaked during December–January, have since been contained and/or extinguished.</p>");
+			;
+		
+	}	
+		
+	
+</script>
+<script>
+	function explore7(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p> As of 9 March 2020, the fires burnt an estimated 18.6 million hectares (46 million acres; 186,000 square kilometres; 72,000 square miles), destroyed over 5,900 buildings (including 2,779 homes)[ and killed at least 34 people. An estimated one billion animals have been killed and some endangered species may be driven to extinction. At its peak, air quality dropped to hazardous levels. The cost of dealing with the bushfires is expected to exceed the A$4.4 billion of the 2009 Black Saturday fires, and tourism sector revenues fell below more than A$1 billion. By 7 January 2020, the smoke had moved approximately 11,000 kilometres (6,800 mi) across the South Pacific Ocean to Chile and Argentina. As of 2 January 2020, NASA estimated that 306 million tonnes (337 million short tons) of CO2 had been emitted.</p>");
+	}	
+		
+	
+</script>
+<script>
+	function explore8(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p> The Australian Bushfires can occur there year-round, Australia goes through a fire season during their warmer months because the hot, dry weather and wind makes it easy for flames to spread. This year, the combination of 40C temperatures and strong winds has caused the fires to spread. Scientists have said there’s no doubt man-made global warming has played a significant role in feeding the wildfires.</p>");
+			;
+		
+	}	
+</script>
+
+
+</html>

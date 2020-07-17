@@ -1,0 +1,92 @@
+
+
+p{
+
+color: grey ;
+ 
+}
+
+body{
+	
+	background-color:grey;
+	
+}
+
+#topbar{
+	
+	background-color:white;
+	min-height:1px;
+	width:95%;
+	
+}
+#topbar p{
+	
+	font-size: 7vmin;
+	display:inline-block;
+	margin-left: 5%;
+	margin-top: 5%;
+	
+}
+#boy{
+	
+	float:left;
+	margin-left:1%;
+	margin-top: 1px;
+	max-width:9%;
+	max-height:9%;
+	
+}
+#fire{
+	
+	float:left;
+	margin-left:1%;
+	margin-top: 1px;
+	max-width:10%;
+	max-height:10%;
+	
+}
+#blackdeath{
+	
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:8%;
+	max-height:9%;
+	
+}
+#covid19{
+	
+	float:left;
+	margin-left:2%;
+	margin-top: 1px;
+	max-width:15%;
+	max-height:15%;
+	
+}
+#mainsection{
+
+	height: 70%;
+	width: 90%;
+	background-color: white;
+	border-radius: 25px;
+	margin-left: 3%;
+	margin-top: 1%;
+	
+}
+p{
+
+	font-size: 5vmin;
+	display: block;
+	margin-left: 3%;
+	margin-right: 3%;
+	word-break: keep-all;
+}
+#mainbutton{
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:lightblue ;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+}

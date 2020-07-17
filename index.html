@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+</head>
+
+<body>
+	<body style ="background: url('bestback.jpg') ; background-size: 100% 100%;">
+	<
+	<div id = 'topbar'>
+		<img id = 'boy' src='boy.jpg'/>
+		<p> Hi and Welcome to the Virus and Diseases Website! </p>
+		<button id= 'mainbutton' onclick="window.location.reload();">Refresh Page!</button>
+		<button id="mainbutton" onclick="location.href='website main page.html'">Click to go to our virtual assistant, Barry!</button>
+	</div>
+	
+	<div id = 'mainsection'>
+		<p> Click on a Virus or Disease you would like to know about! </p> 	
+		<p> Have fun! </p>
+		<button id= 'mainbutton' type='button' onclick = sayHello()>Click Here for more info!</button>
+		<button id="mainbutton" onclick="location.href='covid19.html'">Covid-19!</button>
+		<button id="mainbutton" onclick="location.href='blackdeath.html'">Black death Plague!</button>
+		<button id="mainbutton" onclick="location.href='spanishflu.html'">The Spanish flu!</button>
+	<div id = 'loop-section'>
+		
+	
+
+	</div>
+	</div>
+	
+</body> 
+<script>
+
+	function sayHello(){
+		var name = prompt("Hi, what's your name?");
+		if(name !== null ){
+			window.alert("Welcome "+name+"! This website is  entirely dedicated to viruses and diseases, click on a topic you would like to know about, for further help please click the Go to virtual assistant and he will answer your questions about the website. Enjoy!");
+		}
+	}
+	
+</script>
+
+</html>

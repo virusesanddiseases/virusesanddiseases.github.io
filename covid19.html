@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body> 
+
+	<body style ="background: url('corona.jpg') ; background-size: 100% 100%;">
+	<div id = 'topbar'>
+		<img id = 'covid19' src='covid19.jpg'/>
+		<p> Hi welcome to the Covid-19/Corona-Virus page!</p>
+		<button id= 'mainbutton' onclick="window.location.reload();">Refresh Page!</button>
+		<button id="mainbutton" onclick="location.href='index.html'">Return to home page!</button>
+	</div>
+	<div id = 'mainsection'>
+		<p> Click the buttons below for info! </p> 	
+		<button id= 'mainbutton' type='button' onclick = explore()>Covid-19 General!</button>
+		<button id= 'mainbutton' type='button' onclick = explore2()>Covid-19 How to prevent!</button>
+		<button id= 'mainbutton' type='button' onclick = explore3()>Covid-19 How it spreads!</button>
+		<button id= 'mainbutton' type='button' onclick = explore4()>Asymptomatic!</button>
+		<button id= 'mainbutton' type='button' onclick = explore5()>Presymptomatic!</button>
+		<button id= 'mainbutton' type='button' onclick = explore6()>Statistics!</button>
+		
+		
+	<div id = 'loop-section'>
+	</div>
+	
+</body>
+<script>
+</script>
+
+<script>
+	function explore(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p>The COVID‑19 pandemic, also known as the coronavirus pandemic, is an ongoing global pandemic of coronavirus disease 2019 (COVID‑19), caused by severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑. The outbreak was first identified in Wuhan, China, in December 2019. The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January 2020 and a pandemic on 11 March. As of 9 July 2020, more than 11.9 million cases of COVID‑19 have been reported in more than 188 countries and territories, resulting in more than 547,000 deaths; more than 6.53 million people have recovered.</p>");
+			;
+		
+	}	
+		
+	
+</script>
+<script>
+	function explore2(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p> Recommended preventive measures include hand washing, covering one's mouth when coughing, maintaining distance from other people, wearing a face mask in public settings, and monitoring and self-isolation for people who suspect they are infected. </p>");
+			;
+		
+	}	
+		
+	
+</script>
+<script>
+	function explore3(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p> The virus is primarily spread between people during close contact,[c] most often via small droplets produced by coughing,[d] sneezing, and talking. The droplets usually fall to the ground or onto surfaces rather than travelling through air over long distances, although in some cases they may remain airborne for tens of minutes. Less commonly, people may become infected by touching a contaminated surface and then touching their face. It is most contagious during the first three days after the onset of symptoms, although spread is possible before symptoms appear, and from people who do not show symptoms. </p>");
+			;
+		
+	}	
+		
+	
+</script>
+<script>
+function explore4(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p>  A carrier of a disease or virus which oneself does not show symptoms but can still spread it but at a less chance </p>");
+			;
+		
+	}	
+		
+	
+</script>
+<script>
+	function explore5(){
+			document.getElementById("loop-section").innerHTML = "";
+			$('#loop-section').append("<p> A carrier of a disease or virus which oneself does show symptoms and can spread the virus or disease more easily </p>");
+			;
+		
+	}	
+		
+	
+</script>
+
+
+</html>
