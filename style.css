@@ -1,5 +1,4 @@
 
-
 p{
 
 color: grey ;
@@ -9,7 +8,7 @@ color: grey ;
 body{
 	
 	background-color:grey;
-	
+
 }
 
 #topbar{
@@ -54,6 +53,15 @@ body{
 	max-height:9%;
 	
 }
+#spanishflucell{
+	
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:15%;
+	max-height:15%;
+	
+}
 #covid19{
 	
 	float:left;
@@ -82,6 +90,42 @@ p{
 	word-break: keep-all;
 }
 #mainbutton{
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:lightblue ;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+}
+#mainbutton1{
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:lightgreen ;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+}
+#mainbutton2{
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:grey ;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+}
+#mainbutton3{
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:yellow;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+}
+#mainbutton4{
 	margin-left: 4%;
 	margin-bottom:1%;
 	background-color:lightblue ;
