@@ -1,0 +1,18 @@
+
+body{
+	
+	background-color:lightblue;
+	
+}
+
+#mainbutton{
+
+	margin-left: 4%;
+	margin-bottom:1%;
+	background-color:lightblue;
+	color: black;
+	padding: 10px 13px;
+	display: inline-block;
+	font-size: 23px;
+	
+}

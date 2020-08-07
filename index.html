@@ -7,28 +7,34 @@
 	<title>Diseases and Viruses Website</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 </head>
 
 <body>
 	<body style ="background: url('bestback12.jpg') ; background-size: 100% 100%;">
 	<div id = 'topbar'>
-		<img id = 'boy' src='boy.jpg'/>
-		<p> Hi and Welcome to the Virus and Diseases Website! </p>
+		<img id = 'no' src='virusfirstpage.jpg'/> <p> Hi and Welcome to the Virus and Diseases Website! </p>
+		<button id="mainbutton" onclick="location.href='INDEX2.html'">Click to Go to Tech/Computer Viruses!
+		<button id="mainbutton" onclick="location.href='website main page (2).html'">Click to go to our virtual assistant, Barry!</button>
 		<button id= 'mainbutton' onclick="window.location.reload();">Refresh Page!</button>
-		<button id="mainbutton" onclick="location.href='website main page.html'">Click to go to our virtual assistant, Barry!</button>
+		<button id= 'mainbutton' type='button' onclick = sayHello()>Click Here for more info!</button>
 	</div>
 	
 	<div id = 'mainsection'>
 		<p> Click on a Virus or Disease you would like to know about! </p> 	
 		<p> Have fun! </p>
-		<button id= 'mainbutton' type='button' onclick = sayHello()>Click Here for more info!</button>
-		<button id="mainbutton" onclick="location.href='covid19.html'">Covid-19!</button>
+		<button id="mainbutton" onclick="location.href='asianflu.html'">Asian Flu!</button>
 		<button id="mainbutton" onclick="location.href='blackdeath.html'">Black death Plague!</button>
-		<button id="mainbutton" onclick="location.href='spanishflu.html'">The Spanish flu!</button>
-		<button id="mainbutton" onclick="location.href='smallpox.html'">Small pox!</button>
+		<button id="mainbutton" onclick="location.href='covid19.html'">Covid-19!</button>
+		<button id="mainbutton" onclick="location.href='ebolavirus.html'">Ebola Virus/Disease!</button>
 		<button id="mainbutton" onclick="location.href='hivsaids.html'">HIV/AIDS!</button>
+		<button id="mainbutton" onclick="location.href='Swine flu.html'">Swine Flu!</button>
 		<button id="mainbutton" onclick="location.href='plague justinian.html'">Plague of Justinian!</button>
+		<button id="mainbutton" onclick="location.href='smallpox.html'">Small pox!</button>
+		<button id="mainbutton" onclick="location.href='spanishflu.html'">The Spanish flu!</button>
+		<button id="mainbutton" onclick="location.href='The Third Plague.html'">TTP/The Third Plague!</button>
+		<button id="mainbutton" onclick="location.href='yellow fever.html'">Yellow fever!</button>
+		
 	<div id = 'loop-section'>
 		
 	
@@ -39,10 +45,12 @@
 </body> 
 <script>
 
+
+
 	function sayHello(){
 		var name = prompt("Hi, what's your name?");
 		if(name !== null ){
-			window.alert("Welcome "+name+"! This website is  entirely dedicated to viruses and diseases, click on a topic you would like to know about, for further help please click the Go to virtual assistant and he will answer your questions about the website. Enjoy!");
+			window.alert("Welcome "+name+"! This website is entirely dedicated to viruses and diseases, click on a topic you would like to know about, for further help please click the Go to virtual assistant and he will answer your questions about the website, Enjoy learning!");
 		}
 	}
 	

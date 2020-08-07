@@ -2,74 +2,110 @@
 p{
 
 color: grey ;
- 
+
 }
 
 body{
-	
+
 	background-color:grey;
 
 }
 
 #topbar{
-	
+
 	background-color:white;
 	min-height:1px;
 	width:95%;
-	
+
 }
 #topbar p{
-	
+
 	font-size: 7vmin;
 	display:inline-block;
 	margin-left: 5%;
 	margin-top: 5%;
-	
+
 }
 #boy{
-	
+
 	float:left;
 	margin-left:1%;
 	margin-top: 1px;
 	max-width:9%;
 	max-height:9%;
-	
+
 }
-#fire{
-	
+#no{
+
 	float:left;
 	margin-left:1%;
 	margin-top: 1px;
 	max-width:10%;
 	max-height:10%;
-	
+
+}
+#fire{
+
+	float:left;
+	margin-left:1%;
+	margin-top: 1px;
+	max-width:10%;
+	max-height:10%;
+
 }
 #blackdeath{
-	
+
 	float:left;
 	margin-left:2%;
 	margin-top: 10px;
 	max-width:8%;
 	max-height:9%;
-	
+
 }
-#spanishflucell{
-	
+#smallpox{
+
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:10%;
+	max-height:10%;
+
+}
+#afcell{
+
 	float:left;
 	margin-left:2%;
 	margin-top: 10px;
 	max-width:15%;
 	max-height:15%;
-	
+
+}
+#HIVcell{
+
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:23%;
+	max-height:23%;
+
+}
+#spanishflucell{
+
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:15%;
+	max-height:15%;
+
 }
 #covid19{
-	
+
 	float:left;
 	margin-left:2%;
 	margin-top: 1px;
 	max-width:15%;
 	max-height:15%;
-	
+
 }
 #mainsection{
 
@@ -79,7 +115,7 @@ body{
 	border-radius: 25px;
 	margin-left: 3%;
 	margin-top: 1%;
-	
+
 }
 p{
 
@@ -119,7 +155,7 @@ p{
 #mainbutton3{
 	margin-left: 4%;
 	margin-bottom:1%;
-	background-color:yellow;
+	background-color:darkblue;
 	color: black;
 	padding: 10px 13px;
 	display: inline-block;
@@ -129,8 +165,57 @@ p{
 	margin-left: 4%;
 	margin-bottom:1%;
 	background-color:lightblue ;
-	color: black;
+	color: darkblue;
 	padding: 10px 13px;
 	display: inline-block;
 	font-size: 23px;
 }
+
+#mainbutt{
+	margin-left: 3%;
+	margin-bottom:2%;
+	background-color:red ;
+	color: darkred;
+	padding: 10px 13px;
+	display: italic;
+	font-size: 23px;
+	font:italic
+}
+
+#mainbutto{
+	margin-left: 3%;
+	margin-bottom:2%;
+	background-color:purple ;
+	color: pink;
+	padding: 10px 13px;
+	display: italic;
+	font-size: 23px;
+	font:italic
+}
+#mainbutto2{
+	margin-left: 3%;
+	margin-bottom:2%;
+	background-color:black ;
+	color: grey;
+	padding: 10px 13px;
+	display: italic;
+	font-size: 23px;
+	font:italic
+}
+#mainbutt1{
+	margin-left: 3%;
+	margin-bottom:2%;
+	background-color:blue ;
+	color: red;
+	padding: 10px 13px;
+	display: italic;
+	font-size: 23px;
+	font:italic
+}
+#blackdeath2{
+
+	float:left;
+	margin-left:1%;
+	margin-top: 1px;
+	max-width:45%;
+	max-height:45%;

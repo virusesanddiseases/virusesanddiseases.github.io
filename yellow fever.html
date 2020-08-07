@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+ <body style ="background: url('yellow fever.jpg') ; background-size: 100% 100%;">
+ <div id = 'topbar'>
+   <img id = 'covid19' src='.jpg'/>
+   <p> Hi welcome to the Yellow fever virus page!</p>
+   <button id= 'mainbutton3' onclick="window.location.reload();">Refresh Page!</button>
+   <button id="mainbutton3" onclick="location.href='INDEX.html'">Return to home page!</button>
+ </div>
+ <div id = 'mainsection'>
+   <p> Click the buttons below for info! </p>
+   <button id= 'mainbutton3' type='button' onclick = explore16()>Yellow fever General!</button>
+   <button id= 'mainbutton3' type='button' onclick = explore17()>Yellow fever What it did!</button>
+   <button id= 'mainbutton3' type='button' onclick = explore18()>Yellow fever How it spreads and symptoms!</button>
+   <button id= 'mainbutton3' type='button' onclick = explore19()>Statistics!</button>
+
+
+ <div id = 'loop-section'>
+ </div>
+
+</body>
+<script>
+</script>
+
+<script>
+ function explore16(){
+     document.getElementById("loop-section").innerHTML = "";
+     $('#loop-section').append("<p> Yellow fever was a viral infection spread by a particular species of mosquito. Symptoms typically improve within five days. In about 15% of people, within a day of improving the fever comes back, abdominal pain occurs. it is spread primarily by Aedes aegypti, a type of mosquito found throughout the tropics and subtropic Climates.</p>");
+     ;
+
+ }
+
+
+</script>
+<script>
+ function explore17(){
+     document.getElementById("loop-section").innerHTML = "";
+     $('#loop-section').append("<p> Yellow fever is spread by a species of mosquito common to areas of Africa and South America. Vaccination is recommended before travelling to certain areas. </p>");
+     ;
+
+ }
+
+
+</script>
+<script>
+ function explore18(){
+     document.getElementById("loop-section").innerHTML = "";
+     $('#loop-section').append("<p> The disease is caused by yellow fever virus and is spread by the bite of an infected female mosquito. It infects only humans, other primates, and several types of mosquitoes. </p>");
+     ;
+
+ }
+
+
+</script>
+
+</html>
