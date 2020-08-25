@@ -1,8 +1,8 @@
 
 body{
-	
+
 	background-color:lightblue;
-	
+
 }
 
 #mainbutton{
@@ -14,5 +14,15 @@ body{
 	padding: 10px 13px;
 	display: inline-block;
 	font-size: 23px;
-	
+
+}
+
+#lightbulb.png{
+
+	float:left;
+	margin-left:2%;
+	margin-top: 10px;
+	max-width:23%;
+	max-height:23%;
+
 }
